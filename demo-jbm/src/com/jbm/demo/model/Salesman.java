@@ -3,7 +3,16 @@ package com.jbm.demo.model;
 public class Salesman {
 	private int id;
 	private String name;
+	private String lastName;
 	
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
 	public int getId() {
 		return id;
