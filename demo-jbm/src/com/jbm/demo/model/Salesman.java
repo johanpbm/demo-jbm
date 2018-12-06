@@ -1,6 +1,6 @@
 package com.jbm.demo.model;
 
-public class Salesman {
+public class Salesman extends Person{
 	private int id;
 	private String name;
 	private String lastName;
