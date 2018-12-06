@@ -1,5 +1,5 @@
 package com.jbm.demo.model;
 
-public class Customer {
+public class Customer extends Person{
 	private int id;
 }
